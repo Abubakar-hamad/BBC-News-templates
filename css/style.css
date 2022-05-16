@@ -1,0 +1,163 @@
+@import url(../assets/fonts/stylesheet.css);
+:root{
+    --main:#B80000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    direction: rtl; 
+    font-family: 'Amiri' , serif;
+}
+.font-fam{
+    font-family: 'Amiri' ,serif;
+}
+header{
+    /* background-color: var(--main) ; */
+    width: 100%;
+    font-family: 'Amiri';
+}
+
+.logo{
+    width: 100%;
+    /* display: inline-block; */
+    color: #eee;
+    word-spacing: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: var(--main);
+    padding-right: 20px;
+    
+    
+}
+
+
+ 
+
+.bbc{
+    
+    display: inline;
+    
+}
+.logo b{
+    color: var(--main);
+    background-color: #eee;
+    margin: 2px;
+    padding: 0px 6px ;
+    font-size: 14px;
+    
+}
+
+.nav-bar{
+  background-color: var(--main);
+  margin-top: 1px;
+    font-weight: bolder;
+  line-height: 10px;
+}
+.nav-bar ul{
+    display: flex;
+    padding: 0px;
+   
+
+}
+
+.nav-bar ul li{
+    list-style: none;
+    margin-left: 20px;
+    display: inline-block;
+    
+
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #eee;  
+    position: relative;
+    font-size: 18px;
+
+    
+    
+}
+
+
+.nav-bar ul li a::after{
+    display: block;
+    content: "";
+    position: absolute;
+    border-bottom: 5px solid #eee;
+    width: 100%;
+    bottom: -50%;
+  
+    transform: scale(0,0);
+}
+
+.nav-bar ul li a:hover::after{
+    transform: scale(1,1);
+}
+
+
+.main-content h3{
+    color: #4d4d4d;
+}
+
+.main-content span , .letest-news span{
+    color: #4d4d4d;
+    
+}
+
+
+.main-content a ,.letest-news a{
+    color: #000;
+    font-weight: bolder;
+}
+.main-content a:hover , .letest-news a:hover{
+    color: #4d4d4d;
+}
+
+.letest-news p{
+    color: #000;
+}
+
+.split{
+    margin: 130px 50px 0;
+}
+.line{
+    display: inline;
+    background-color: #cccc;
+    height: 2px;
+    margin-top: 15px;
+}
+
+h3.life-title{
+   color: #000;
+}
+
+
+h3.life-title::before{
+   content: "مباشر";
+   color: var(--main);
+   font-size: 40px;
+ }
+
+
+
+
+ /* 
+ زعيم كوريا الشمالية
+كيف ستكون جائحة كورونا في كوريا الشمالية؟
+15 مايو/ أيار 2022
+اختبار كورونا
+الوباء "سيعاود مطاردة الدول الغنية مالم تعزز" حملة التطعيم في الدول الفقيرة
+12 مايو/ أيار 2022
+موقع لحرق الجثث في الهند
+منظمة الصحة تكشف عن أرقام صادمة لوفيات كورونا حول العالم
+5 مايو/ أيار 2022
+خريطة انتشار فيروس كورونا وأعداد الإصابات والوفيات حول العالم
+خريطة انتشار فيروس كورونا وأحدث الأرقام المسجّلة
+28 أبريل/ نيسان 2022 */
