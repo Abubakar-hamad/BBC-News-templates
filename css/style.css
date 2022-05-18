@@ -36,7 +36,7 @@ body{
    .pran-title span{
        position: absolute;
        left: 0;
-       bottom: 20%;
+       bottom: 10%;
        font-size: 14px;
    }
 }
