@@ -52,6 +52,7 @@ header{
     margin: 2px;
     padding: 0px 6px ;
     font-size: 14px;
+    border-radius: 3px;
     
 }
 
@@ -147,17 +148,52 @@ h3.life-title::before{
 
 
 
+.buttons , .buttons:hover{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 2px;
+}
 
- /* 
- زعيم كوريا الشمالية
-كيف ستكون جائحة كورونا في كوريا الشمالية؟
-15 مايو/ أيار 2022
-اختبار كورونا
-الوباء "سيعاود مطاردة الدول الغنية مالم تعزز" حملة التطعيم في الدول الفقيرة
-12 مايو/ أيار 2022
-موقع لحرق الجثث في الهند
-منظمة الصحة تكشف عن أرقام صادمة لوفيات كورونا حول العالم
-5 مايو/ أيار 2022
-خريطة انتشار فيروس كورونا وأعداد الإصابات والوفيات حول العالم
-خريطة انتشار فيروس كورونا وأحدث الأرقام المسجّلة
-28 أبريل/ نيسان 2022 */
+
+.item{
+    border-right: rgb(34, 34, 34) 1px solid;
+}
+.icons i{
+   font-size: 80px;
+}
+.face{
+    color: #3b5998;
+}
+.twit{
+    color: #00aced;
+}
+.insta{
+    color: #517fa4;
+
+}
+.yout{
+    color: #bb0000
+
+}
+.foot{
+background: #282625;
+}
+.foot-ul a{
+    color: #fff;
+}
+.foot-ul a:hover{
+    color: #fff;
+}
+
+
+.foot-ul li{
+    list-style: none;
+    margin-top: 10px;
+}
